@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
@@ -8,6 +10,8 @@
     border-style: none;
     text-decoration: none;
     color: #000;
+    font-family: lato;
+
 }
 .header-section {
     background-color: #F9F7E8;
@@ -34,10 +38,17 @@
     font-family:courgette;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     -webkit-text-stroke: 1px #000000;
-
+    transition: color 0.5s;
+    cursor: pointer;
+}
+.section__logo-item:hover{
+    color: #62BFAD;
 }
 .section__logo-item:first-child{
     color: #62BFAD;
+}
+.section__logo-item:first-child:hover{
+    color: #000000;
 }
 .header-section__menu {
     justify-content: flex-start;
@@ -64,7 +75,6 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-
 }
 
 
@@ -108,31 +118,90 @@
 
 .features-section {
 }
+.features-section-content{
+    display: flex;
+}
 .features-section__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #D52047;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 .features-section__cards {
+    display: flex;
+    justify-content: space-between;
 }
 .features-section__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:24px;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px ;
+    margin-bottom: 80px;
+}
+.features-section__item > div{
+    padding-bottom: 24px;
+}
+.features-section__item + .features-section__item {
+    margin-left: 72px;
 }
 .features-section__item-image {
 }
 .features-section__item-title {
 }
 .features-section__item-text {
+
 }
 .features-section__item-link {
 }
 .footer-section {
+
+
+    background-color: #F9F7E8;
 }
 .footer-about__section {
+    margin-top: 32px;
+    opacity: 0.3;
+
 }
 .icon-section {
+    margin-top: 24px;
+    margin-bottom: 32px;
 }
-.fab {
+.fab + .fab{
+    margin-left: 25px;
 }
-.fa-twitter-square {
+
+.footer-section__content{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0 auto;
 }
-.fa-instagram-square {
+.footer-about__info{
+    position: relative;
 }
-.fa-linkedin {
+
+.footer-about__info::after{
+    content: " ";
+    border-bottom: 1px solid #000000;
+    display: flex;
+    position: absolute;
+    top: 18px;
+    right: 0px;
+    width: 96px;
+    height: 4px;
+}
+.asd + .asd{
+    margin-left: 16px;
+}
+.fab{
+    transition: color 0.5s;
+
+}
+.fab:hover{
+    color: #D52047;
 }
