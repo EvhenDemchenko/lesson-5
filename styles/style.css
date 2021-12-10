@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    border-style: none;
+    text-decoration: none;
+    color: #000;
+}
+.header-section {
+    background-color: #F9F7E8;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    height: 621px;
+}
+.container {
+    max-width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+.header-section__logo {
+    display: flex;
+    flex-direction: row;
+    margin: 24px 58px 24px 0;
+}
+.section__logo-item {
+    font-size: 32px;
+    line-height: 40px;
+    font-family:courgette;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px #000000;
+
+}
+.section__logo-item:first-child{
+    color: #62BFAD;
+}
+.header-section__menu {
+    justify-content: flex-start;
+}
+.header-section__menu-item {
+    margin-left: 21px;
+}
+.main-section {
+}
+.hero-section {
+    background-color: #D52047;
+    margin: 0 auto;
+
+}
+.hero-section-title {
+    width: 738px;
+    height: 116px;
+    margin: 198px auto 172px auto;
+    font-family: Limelight;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+
+
+.about-section {
+    background-color: #EFF8F6;
+}
+.about-section__title {
+    color: #D52047;
+    padding: 95px 0 40px 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+.about-section__content {
+    display: flex;
+     align-items: center;
+    justify-content: space-between;
+    background-color: #E5E5E5;
+    border-radius: 8px;
+
+}
+.about-section__description {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+.about-section__description-subtitle {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 24px;
+    font-style: normal;
+}
+.about-section__description-text {
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+
+
+.features-section {
+}
+.features-section__title {
+}
+.features-section__cards {
+}
+.features-section__item {
+}
+.features-section__item-image {
+}
+.features-section__item-title {
+}
+.features-section__item-text {
+}
+.features-section__item-link {
+}
+.footer-section {
+}
+.footer-about__section {
+}
+.icon-section {
+}
+.fab {
+}
+.fa-twitter-square {
+}
+.fa-instagram-square {
+}
+.fa-linkedin {
+}
