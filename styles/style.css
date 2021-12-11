@@ -55,9 +55,13 @@
 }
 .header-section__menu-item {
     margin-left: 21px;
+    border-bottom: 2px solid transparent;
+    transition: border 1s;
 }
-.main-section {
+.header-section__menu-item:hover{
+    border-bottom: 2px solid gray;
 }
+
 .hero-section {
     background-color: #D52047;
     margin: 0 auto;
@@ -76,8 +80,6 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
-
 
 .about-section {
     background-color: #EFF8F6;
@@ -114,10 +116,6 @@
     line-height: 28.8px;
 }
 
-
-
-.features-section {
-}
 .features-section-content{
     display: flex;
 }
@@ -148,14 +146,14 @@
 .features-section__item + .features-section__item {
     margin-left: 72px;
 }
-.features-section__item-image {
-}
-.features-section__item-title {
-}
-.features-section__item-text {
 
+.features-section__link-text{
+    border-bottom: 1px solid transparent;
+    transition: border 2s;
 }
-.features-section__item-link {
+.features-section__link-text:hover{
+    border-bottom: 1px solid black;
+    
 }
 .footer-section {
 
