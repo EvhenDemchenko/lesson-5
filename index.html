@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/fonts.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
     <script
       src="https://kit.fontawesome.com/8afc92e066.js"
       crossorigin="anonymous"
@@ -30,7 +34,7 @@
       <main class="main-section">
         <div class="hero-section">
           <div class="container">
-            <h1 class="hero-section-title">
+            <h1 class="hero-section-title josh-js" data-josh-anim-name="fadeInDown">
               Knowledge has a begining but no end
             </h1>
           </div>
@@ -40,7 +44,7 @@
             <div class="about-content">
               <h2 class="about-section__title">About</h2>
               <div class="about-section__content">
-                <div class="about-section__description">
+                <div class="about-section__description josh-js" data-josh-anim-name="lightSpeedInLeft">
                   <h3 class="about-section__description-subtitle">
                     Content subtitle
                   </h3>
@@ -54,7 +58,7 @@
                   </div>
                 </div>
 
-                <img src="./img/about-image.jpg" alt="about-image" />
+                <img src="./img/about-image.jpg" alt="about-image" class="josh-js" data-josh-anim-name="lightSpeedInRight">
               </div>
             </div>
           </div>
@@ -64,7 +68,7 @@
             <div class="features-section__content">
               <h2 class="features-section__title">Features</h2>
               <div class="features-section__cards">
-                <div class="features-section__item">
+                <div class="features-section__item josh-js" data-josh-anim-name="fadeInLeft">
                   <div class="features-section__item-image">
                     <img src="./img/card-image.jpg" alt="card-image-1" />
                   </div>
@@ -80,7 +84,7 @@
                     >
                   </a>
                 </div>
-                <div class="features-section__item">
+                <div class="features-section__item josh-js" data-josh-anim-name="zoomIn">
                   <div class="features-section__item-image">
                     <img src="./img/card-image-1.jpg" alt="card-image-2" />
                   </div>
@@ -96,7 +100,7 @@
                     >
                   </a>
                 </div>
-                <div class="features-section__item">
+                <div class="features-section__item josh-js" data-josh-anim-name="fadeInRight">
                   <div class="features-section__item-image">
                     <img src="./img/card-image-2.jpg" alt="card-image-3" />
                   </div>
@@ -139,5 +143,7 @@
         </div>
       </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/joshjs@1.0.0/dist/josh.min.js"></script>
+    <script src="/app.js"></script>
   </body>
 </html>
